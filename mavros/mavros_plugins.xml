@@ -1,0 +1,9 @@
+<library path="lib/libmavros_plugins">
+        <!--<newly write chg--> 
+   
+    <class name="send" type="mavplugin::SendPlugin" base_class_type="mavplugin::MavRosPlugin">
+		<description>Send data</description>
+	</class>
+        
+</library>
+
