@@ -46,7 +46,7 @@ private:
     
     //callbacks
     void send_cb(const mavros::Ardrone &msg){
-        send(msg.moving , msg.robot_x , msg.robot_y , msg.catch_x , msg.catch_y);
+        send(msg.moving, msg.robot_x , msg.robot_y , msg.catch_x , msg.catch_y);
     }
 };
 

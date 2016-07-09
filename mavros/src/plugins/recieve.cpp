@@ -16,7 +16,7 @@ public:
 	{
 		uas = &uas_;
 		receiver_nh.param<std::string>("frame_id", frame_id, "receiver");
-        receiver_pub = receiver_nh.advertise<mavros::Ardrone>("/ardrone/robot_postion", 1); //add publisher to handler
+        receiver_pub = receiver_nh.advertise<mavros::Ardrone>("/ardrone/robot_position", 1); //add publisher to handler
 	}
 
 	const message_map get_rx_handlers() {
